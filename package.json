@@ -1,19 +1,13 @@
 {
-  "homepage": "https://username.github.io/react-todo-app",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-
-  "name": "project2",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+"name": "react-todo-app",
+  "version": "1.0.0",
+  "homepage": "https://<your-username>.github.io/react-todo-app",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite", 
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
