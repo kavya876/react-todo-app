@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./TodoApp.css";
+import "./index.css";
 
 export default function TodoApp() {
   const [input, setInput] = useState("");
