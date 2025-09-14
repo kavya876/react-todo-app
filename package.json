@@ -1,4 +1,10 @@
 {
+  "homepage": "https://username.github.io/react-todo-app",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
   "name": "project2",
   "private": true,
   "version": "0.0.0",
